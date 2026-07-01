@@ -455,7 +455,7 @@ strong {
 
 /* Scroll Indicator */
 .scroll-indicator {
-    position: absolute;
+    position: fixed;
     bottom: 2rem;
     left: 50%;
     transform: translateX(-50%);
@@ -463,6 +463,14 @@ strong {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+
+.scroll-indicator.hidden {
+    opacity: 0;
 }
 
 .scroll-mouse {

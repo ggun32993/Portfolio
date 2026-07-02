@@ -9,9 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // ------------------------------------------
     const roles = [
         'System Engineer',
-        'Network Engineer', 
-        'Infrastructure Automation',
-        'DevOps & Security'
+        'Network Engineer',
+        'IT Admin & Support'
     ];
 
     const typedEl = document.getElementById('typedText');

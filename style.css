@@ -662,10 +662,10 @@ strong {
     align-items: center;
     justify-content: center;
     font-size: 1.4rem;
-    background: rgba(129, 140, 248, 0.06);
-    border: 1px solid rgba(129, 140, 248, 0.2);
+    background: rgba(251, 191, 36, 0.06);
+    border: 1px solid rgba(251, 191, 36, 0.2);
     border-radius: var(--radius-sm);
-    color: var(--accent);
+    color: var(--amber);
 }
 
 .edu-info {
@@ -684,7 +684,7 @@ strong {
 .edu-degree {
     font-size: 0.82rem;
     font-weight: 600;
-    color: var(--accent);
+    color: var(--amber);
 }
 
 .edu-major {
@@ -813,10 +813,10 @@ strong {
     align-items: center;
     justify-content: center;
     font-size: 1.4rem;
-    background: rgba(129, 140, 248, 0.06);
-    border: 1px solid rgba(129, 140, 248, 0.2);
+    background: rgba(251, 191, 36, 0.06);
+    border: 1px solid rgba(251, 191, 36, 0.2);
     border-radius: var(--radius-sm);
-    color: var(--accent);
+    color: var(--amber);
 }
 
 .cert-info {
@@ -835,7 +835,7 @@ strong {
 .cert-issuer {
     font-size: 0.82rem;
     font-weight: 600;
-    color: var(--accent);
+    color: var(--amber);
 }
 
 .cert-date {
@@ -847,7 +847,7 @@ strong {
 
 .cert-link {
     font-size: 0.72rem;
-    color: var(--accent);
+    color: var(--amber);
     margin-top: 0.35rem;
     display: inline-flex;
     align-items: center;
